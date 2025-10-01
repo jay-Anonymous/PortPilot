@@ -1,4 +1,4 @@
-FROM python:3.11.6
+FROM python:3.14.0rc3
 WORKDIR /app
 COPY requirements.txt ./
 RUN pip install -r requirements.txt
